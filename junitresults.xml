@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="3" errors="0" failures="0" tests="4" time="17259">
+ <testsuite name="Search for stuff" timestamp="2018-02-09T18:02:23" hostname="localhost" time="17.258" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Search for stuff" name="can search for Bolmen" time="17.255" />
+ </testsuite>
+ <testsuite name="Login and logout" timestamp="2018-02-09T18:02:40" hostname="localhost" time="0.001" errors="0" tests="3" skipped="0" disabled="3" failures="0">
+  <testcase classname="Login and logout" name="can log in" time="0">
+   <skipped />
+  </testcase>
+  <testcase classname="Login and logout" name="can not log in with false password" time="0">
+   <skipped />
+  </testcase>
+  <testcase classname="Login and logout" name="can log in and then log out" time="0">
+   <skipped />
+  </testcase>
+ </testsuite>
+</testsuites>
