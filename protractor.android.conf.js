@@ -13,14 +13,13 @@ exports.config = {
   capabilities: {
     browserName: "",
     'appium-version': '1.6',
-    platformName: 'iOS',
+    platformName: 'android',
     autoWebview: true,
     autoGrantPermissions: true,
     unicodeKeyboard: true,
     resetKeyboard: true,
-    deviceName: 'iPhone 6',
-    automationName: 'XCUITest',
-    app: '/Users/gustavbylund/prog/ifiske/platforms/ios/build/emulator/iFiske Fiskekort.app',
+    deviceName: 'LGD8558e1900bb',
+    app: '/home/maistho/prog/ifiske/platforms/android/build/outputs/apk/debug/android-debug.apk',
   },
 
   jasmineNodeOpts: {
@@ -28,7 +27,7 @@ exports.config = {
     defaultTimeoutInterval: 60000
   },
 
-  baseUrl: 'http://localhost:8080/Users/gustavbylund/Library/Developer/CoreSimulator/Devices/482343A9-DCAD-4900-9BBE-38E32AAB45B9/data/Containers/Bundle/Application/AE71EB17-3150-49FA-8615-65F0E6C99F7E/iFiske%20Fiskekort.app/www/index.html',
+  baseUrl: 'file:///android_asset/www/index.html',
 
   useAllAngular2AppRoots: true,
   beforeLaunch: function() {

@@ -106,6 +106,7 @@
     "firebase-tools": "^3.17.4",
     "inquirer": "^5.1.0",
     "ionic": "^3.13.2",
+    "ios-deploy": "^1.9.2",
     "jasmine": "^3.0.0",
     "jasmine-reporters": "^2.3.0",
     "jasmine-spec-reporter": "^4.2.1",
